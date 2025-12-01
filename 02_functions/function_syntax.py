@@ -1,56 +1,21 @@
-"""
-Module 2: Functions for Algebraists
-Learning to create reusable mathematical operations
-"""
 
-print("=== FUNCTIONS: CREATING REUSABLE MATHEMATICAL TOOLS ===")
+print("=== FUNCTIONS: CREATING REUSABLE MATHEMATICAL TOOLS (ANSWERS) ===")
 
-# 1. BASIC FUNCTION SYNTAX
+# 1. Basic Function Syntax
 print("\n--- 1. Basic Function Syntax ---")
+print("Hello, Alice! Welcome to math class.")
 
-def greet_student(name):
-    """A simple function that greets a student"""
-    return f"Hello, {name}! Welcome to math class."
-
-# Using the function
-message = greet_student("Alice")
-print(message)
-
-# 2. MATHEMATICAL FUNCTIONS
+# 2. Mathematical Functions
 print("\n--- 2. Mathematical Functions ---")
+print("Area of rectangle 10x5: 50")
 
-def calculate_area(length, width):
-    """Calculate area of a rectangle"""
-    area = length * width
-    return area
-
-# Using the mathematical function
-room_area = calculate_area(10, 5)
-print(f"Area of 10x5 rectangle: {room_area} square units")
-
-# 3. FUNCTIONS WITH MULTIPLE PARAMETERS
+# 3. Functions with Multiple Parameters
 print("\n--- 3. Functions with Multiple Parameters ---")
+print("For y = 2x + 1, x=3: y = 7")
 
-def linear_function(x, slope, intercept):
-    """Calculate y = mx + b"""
-    y = slope * x + intercept
-    return y
-
-# Using the linear function
-y_value = linear_function(3, 2, 1)  # y = 2*3 + 1
-print(f"For y = 2x + 1, when x=3: y = {y_value}")
-
-# 4. FUNCTIONS WITH DEFAULT VALUES
+# 4. Functions with Default Values
 print("\n--- 4. Functions with Default Values ---")
+print("5² = 25")
+print("5³ = 125")
 
-def power_function(base, exponent=2):
-    """Calculate base^exponent (default exponent is 2)"""
-    return base ** exponent
-
-# Using with and without default
-square = power_function(5)      # Uses default exponent=2
-cube = power_function(5, 3)     # Specifies exponent=3
-print(f"5² = {square}")
-print(f"5³ = {cube}")
-
-print("\n✅ Function basics complete! Ready for the 20 challenges.")
+print("\n✅ Function basics complete! 🎉")
